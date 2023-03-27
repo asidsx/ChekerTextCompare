@@ -41,6 +41,33 @@ Then copy the executable file `cheker.exe` to the folder with the `data.txt` and
 4. Run the `cheker.exe` program.
 5. The `error.txt` file will indicate new and modified lines from the `data.txt` file.
 
+
+<hr>
+
+# Beschreibung des Programms cheker.exe
+
+Dieses Programm ist zur Vergleichung von zwei Textdateien bestimmt und zum Auffinden von Unterschieden zwischen ihnen.
+
+### Verwendung
+
+Zur Verwendung des Programms müssen zwei Textdateien vorbereitet werden: `data.txt` und `old.txt`. Die Datei `data.txt` sollte die neueste Version des Textes enthalten, während die Datei `old.txt` die vorherige Version enthalten sollte.
+
+Zur Vorbereitung von Spieledateien für die Lokalisierung kann das Dienstprogramm [EasyTranslateCraftopia](https://github.com/asidsx/EasyTranslateCraftopia) verwendet werden, das den Text automatisch aus dem Spiel extrahiert.
+
+Kopieren Sie dann die ausführbare Datei `cheker.exe` in den Ordner mit den Dateien `data.txt` und `old.txt` und starten Sie sie. Nach Abschluss des Programms wird eine Datei `error.txt` erstellt, in der neue Zeilen und geänderte Zeilen aus der Datei `data.txt` angegeben werden.
+
+### Beispielverwendung
+
+1. Extrahieren Sie die neueste Version der Spiel-Lokalisierung orig.txt mit dem Dienstprogramm EasyTranslateCraftopia und benennen Sie sie in die Datei `data.txt` um.
+2. Kopieren Sie die alte Datei `orig.txt` vom vorherigen Craftopia-Patch in denselben Ordner und benennen Sie sie in `old.txt` um.
+3. Kopieren Sie die ausführbare Datei `cheker.exe` in denselben Ordner.
+4. Starten Sie das Programm `cheker.exe`.
+5. In der Datei `error.txt` werden neue Zeilen und geänderte Zeilen aus der Datei `data.txt` angegeben.
+
+
+
+
+
 <hr>
 
 
