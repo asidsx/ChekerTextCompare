@@ -40,3 +40,26 @@ Then copy the executable file `cheker.exe` to the folder with the `data.txt` and
 3. Copy the executable file `cheker.exe` to the same folder.
 4. Run the `cheker.exe` program.
 5. The `error.txt` file will indicate new and modified lines from the `data.txt` file.
+
+<hr>
+
+
+# cheker.exeプログラムの説明
+
+このプログラムは、2つのテキストファイルを比較し、それらの間の違いを特定するために作成されました。
+
+### 使用方法
+
+プログラムを使用するには、2つのテキストファイル「data.txt」と「old.txt」を準備する必要があります。「data.txt」ファイルには最新のテキストバージョンが含まれ、「old.txt」ファイルには以前のバージョンが含まれている必要があります。
+
+ゲームのローカライズファイルを準備するには、[EasyTranslateCraftopia](https://github.com/asidsx/EasyTranslateCraftopia)ツールを使用することができます。このツールは、ゲームからテキストを自動的にエクスポートします。
+
+次に、実行可能ファイル「cheker.exe」を「data.txt」と「old.txt」ファイルがあるフォルダにコピーし、それを実行します。プログラムの実行後、「error.txt」というファイルが作成され、その中には「data.txt」ファイルからの新しい行と変更された行が表示されます。
+
+### 使用例
+
+1. EasyTranslateCraftopiaツールを使用して、最新のゲームローカライズファイル「orig.txt」をエクスポートし、「data.txt」という名前に変更します。
+2. 前回のCraftopiaパッチから古い「orig.txt」ファイルを同じフォルダにコピーし、「old.txt」という名前に変更します。
+3. 実行可能ファイル「cheker.exe」を同じフォルダにコピーします。
+4. 「cheker.exe」プログラムを実行します。
+5. 「error.txt」ファイルには、「data.txt」ファイルからの新しい行と変更された行が表示されます。
