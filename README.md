@@ -1,4 +1,5 @@
 # Описание программы cheker.exe
+![GitHub all releases](https://img.shields.io/github/downloads/asidsx/ChekerTextCompare/total)
 
 Данная программа предназначена для сравнения двух файлов с текстом и выявления различий между ними. 
 
